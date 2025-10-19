@@ -1,0 +1,44 @@
+{
+  "name": "craftzoro",
+  "displayName": "CraftZoro",
+  "description": "CraftZoro - Modern vscode theme by CraftTech Studios",
+  "version": "0.0.1",
+  "publisher": "30Block",
+  "author": "_30Block_",
+  "homepage": "https://cblock.ir/",
+  "icon": "icon.png",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/master-cblock/CraftZoro"
+  },
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+"contributes": {
+  "themes": [
+    {
+      "label": "CraftZoro - Dark",
+      "uiTheme": "vs-dark",
+      "path": "./themes/CraftZoro-Dark.json"
+    },
+    {
+      "label": "CraftZoro - Dark+",
+      "uiTheme": "vs-dark",
+      "path": "./themes/CraftZoro-DarkPlus.json"
+    },
+    {
+      "label": "CraftZoro - White",
+      "uiTheme": "vs",
+      "path": "./themes/CraftZoro-White.json"
+    },
+    {
+      "label": "CraftZoro - White+",
+      "uiTheme": "vs",
+      "path": "./themes/CraftZoro-WhitePlus.json"
+    }
+  ]
+}
+}
